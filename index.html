@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rahul Kumar Singh — Marketing Leader</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="btn-dl" onclick="downloadResume()">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download Resume
+    </button>
+    <button class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-nav" id="mobileNav">
+  <a href="#about" onclick="closeMenu()">About</a>
+  <a href="#experience" onclick="closeMenu()">Experience</a>
+  <a href="#skills" onclick="closeMenu()">Skills</a>
+  <a href="#achievements" onclick="closeMenu()">Achievements</a>
+  <a href="#contact" onclick="closeMenu()">Contact</a>
+  <button class="btn-dl-mob" onclick="downloadResume();closeMenu()">Download Resume</button>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="hero-eyebrow fade-up">Marketing Leader · India</p>
+      <h1 class="hero-heading fade-up delay-1">Rahul Kumar Singh</h1>
+      <p class="hero-sub fade-up delay-2">
+        <span class="hb">Account-Based Marketing</span> &nbsp;·&nbsp;
+        <span class="hg">Lead Management</span> &nbsp;·&nbsp;
+        <span class="hr">Demand Generation</span> &nbsp;·&nbsp;
+        <span class="hy">Sales Enablement</span>
+      </p>
+      <p class="hero-desc fade-up delay-3">11+ years architecting high-impact B2B marketing strategies that drive pipeline growth, accelerate revenue, and create measurable business outcomes across BFSI, Manufacturing, Retail, and TMT industries.</p>
+      <div class="hero-cta fade-up delay-4">
+        <a href="#experience" class="btn-primary">View Experience</a>
+        <button class="btn-outline" onclick="downloadResume()">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download Resume
+        </button>
+      </div>
+    </div>
+    <div class="hero-photo fade-up delay-2">
+      <div class="photo-ring">
+        <img src="assets/rahul.png" alt="Rahul Kumar Singh" class="profile-img"/>
+      </div>
+      <div class="photo-badge badge-1"><span class="badge-num">11+</span><span class="badge-label">Years Exp.</span></div>
+      <div class="photo-badge badge-2"><span class="badge-num">4</span><span class="badge-label">Industries</span></div>
+    </div>
+  </div>
+  <div class="hero-pills fade-up delay-5">
+    <div class="pill"><span class="dot db"></span>ABM / ABX</div>
+    <div class="pill"><span class="dot dg"></span>Lead Management</div>
+    <div class="pill"><span class="dot dr"></span>Demand Generation</div>
+    <div class="pill"><span class="dot dy"></span>MarTech &amp; AI Ops</div>
+    <div class="pill"><span class="dot db"></span>Sales Enablement</div>
+    <div class="pill"><span class="dot dg"></span>Content Strategy</div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="two-col">
+      <div class="about-cards fade-in">
+        <div class="acard ab"><span class="aico">◈</span><div><div class="albl">Current Role</div><div class="aval">Manager, Cognizant</div></div></div>
+        <div class="acard ag"><span class="aico">◉</span><div><div class="albl">Specialisation</div><div class="aval">ABM · Lead Mgmt · Demand Gen</div></div></div>
+        <div class="acard ar"><span class="aico">◎</span><div><div class="albl">Industries</div><div class="aval">BFSI · Manufacturing · Retail · TMT</div></div></div>
+        <div class="acard ay"><span class="aico">◆</span><div><div class="albl">Education</div><div class="aval">MBA — Great Lakes Institute, Gurgaon</div></div></div>
+      </div>
+      <div class="fade-in">
+        <div class="eyebrow">About Me</div>
+        <h2 class="sec-h">Driving <em>revenue growth</em> through strategic marketing</h2>
+        <p class="sec-body">A results-oriented Marketing Leader with over 11 years of experience architecting and executing high-impact B2B marketing programs that directly accelerate pipeline, deepen customer engagement, and deliver measurable revenue outcomes. Currently serving as Manager at <strong>Cognizant</strong>, I partner closely with senior leadership and vertical account teams to design demand-generation strategies and lead-management frameworks that create scalable, predictable pipeline.</p>
+        <p class="sec-body">My career spans the full spectrum of B2B marketing — from building ABM programs for Tier-1 enterprise accounts across BFSI, Manufacturing, Retail, and TMT sectors, to spearheading AI-powered marketing operations that enhance MQL-to-MSQL conversion and funnel efficiency. I bring a rare combination of strategic vision and hands-on execution: from crafting C-level value propositions and thought leadership to orchestrating integrated multi-channel campaigns that move buyers through complex purchasing cycles.</p>
+        <p class="sec-body">Known for fostering cross-functional alignment between marketing, sales, and product teams, I have a consistent track record of translating business objectives into marketing strategies that generate qualified pipeline, increase brand authority, and drive sustainable growth for organisations operating in competitive B2B markets.</p>
+        <div class="chips">
+          <span class="chip cb">ABM / ABX Strategy</span>
+          <span class="chip cg">Lead Lifecycle Management</span>
+          <span class="chip cr">AI-Powered MarTech Ops</span>
+          <span class="chip cy">Integrated Campaign Execution</span>
+          <span class="chip cb">Revenue Pipeline Growth</span>
+          <span class="chip cg">C-Level Stakeholder Alignment</span>
+          <span class="chip cr">Content &amp; Thought Leadership</span>
+          <span class="chip cy">Sales &amp; Marketing Alignment</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXP BAND -->
+<div class="band">
+  <div class="container">
+    <div class="eyebrow band-eye">Experience</div>
+    <h2 class="sec-h band-h">Eleven years of <em>impact</em></h2>
+  </div>
+</div>
+
+<!-- EXPERIENCE -->
+<section class="section" id="experience">
+  <div class="container">
+
+    <!-- COGNIZANT -->
+    <div class="exp-block fade-in">
+      <div class="exp-meta">
+        <div class="exp-logo cog">C</div>
+        <div><div class="exp-co">Cognizant</div><div class="exp-dt">Jul 2025 — Present</div></div>
+        <span class="badge-curr">Current</span>
+      </div>
+      <h3 class="exp-role">Manager — Lead Generation &amp; Marketing Operations</h3>
+      <p class="exp-desc">Leading lead generation and management initiatives across vertical account teams, architecting engagement strategies through AI-powered operations and multi-channel demand generation that drive measurable pipeline growth across North America and EMEA.</p>
+      <div class="pillars">
+        <div class="pillar pb">
+          <div class="ph"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg> AI-Powered Lead Operations</div>
+          <p>Leveraging generative AI and intelligent automation to simplify lead management workflows, enhance MQL-to-MSQL conversion, and improve total funnel visibility through smart lead scoring and segmentation.</p>
+        </div>
+        <div class="pillar pg">
+          <div class="ph"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg> Process Enhancement</div>
+          <p>Designing and implementing advanced process flow improvements for lead tracking and measurement, introducing standardised frameworks that bring clarity and precision to pipeline reporting.</p>
+        </div>
+        <div class="pillar pr">
+          <div class="ph"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg> Demand Generation</div>
+          <p>Orchestrating multi-channel demand gen campaigns across LinkedIn, Content Syndication, and Email targeting key enterprise accounts in North America and EMEA regions.</p>
+        </div>
+        <div class="pillar py">
+          <div class="ph"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/></svg> Cross-Functional Alignment</div>
+          <p>Collaborating directly with senior leadership and vertical account teams to align marketing and sales execution, establishing shared pipeline KPIs and ownership models.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-divider"></div>
+
+    <!-- EVALUESERVE — single section -->
+    <div class="exp-block fade-in">
+      <div class="exp-meta">
+        <div class="exp-logo evs">E</div>
+        <div><div class="exp-co">Evalueserve</div><div class="exp-dt">Aug 2021 — Jun 2025 · 3 yrs 10 mos</div></div>
+      </div>
+      <h3 class="exp-role">Marketing Manager</h3>
+      <p class="exp-desc">Led end-to-end marketing across ABM, Industry Marketing, Sales Enablement, and Client Project engagements — spanning solution development, integrated campaigns, content strategy, stakeholder collaboration, and digital performance.</p>
+
+      <div class="card-grid">
+
+        <div class="exp-card ec-b">
+          <div class="ec-head"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg> Marketing Solution Development</div>
+          <ul class="cl">
+            <li>Developed marketing solutions and created comprehensive proposals for client and internal stakeholders</li>
+            <li>Led campaigns and created targeted content to boost solution awareness and generate business opportunities</li>
+            <li>Developed a PoV on B2B engagement and nurturing strategy, emphasising lead nurturing and conversion into actionable opportunities</li>
+          </ul>
+        </div>
+
+        <div class="exp-card ec-g">
+          <div class="ec-head"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h18v18H3z"/><path d="M3 9h18M9 21V9"/></svg> Marketing Strategy &amp; Execution</div>
+          <ul class="cl">
+            <li>Created and implemented strategic marketing plans to drive growth, increase brand visibility, and enhance customer engagement</li>
+            <li>Designed and executed industry-specific initiatives across BFSI, Manufacturing, Retail, and Healthcare to enhance brand equity and drive demand</li>
+            <li>Planned and executed field marketing activities: conferences, webinars, seminars, and fireside chats to drive engagement and build pipeline</li>
+          </ul>
+        </div>
+
+        <div class="exp-card ec-r">
+          <div class="ec-head"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg> Content Marketing &amp; Value Propositions</div>
+          <ul class="cl">
+            <li>Developed content marketing strategies aligned with global goals, creating quarterly and annual plans to drive engagement</li>
+            <li>Collaborated with cross-functional teams to create thought leadership, case studies, videos, and solution collateral</li>
+            <li>Conducted research and analysis to craft tailored value propositions and content for key industry accounts</li>
+            <li>Spearheaded the launch of the Retail Cluster — managing narrative creation, website development, campaigns, and nurture email workflows</li>
+          </ul>
+        </div>
+
+        <div class="exp-card ec-y">
+          <div class="ec-head"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg> Integrated Campaign Management</div>
+          <ul class="cl">
+            <li>Led planning and execution of integrated campaigns across email, social media, LinkedIn, Demandbase, and Google Ads</li>
+            <li>Ensured a consistent flow of MQLs, working with sales teams to convert them into MSQLs</li>
+            <li>Tracked, analysed, and optimised campaign performance using data-driven insights for continuous improvement</li>
+          </ul>
+        </div>
+
+        <div class="exp-card ec-b">
+          <div class="ec-head"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Stakeholder &amp; Cross-Functional Collaboration</div>
+          <ul class="cl">
+            <li>Built strong stakeholder relationships, including C-level, by aligning marketing efforts with business objectives</li>
+            <li>Collaborated with sales teams to develop account-based marketing strategies that enhance brand credibility and drive pipeline growth</li>
+          </ul>
+        </div>
+
+        <div class="exp-card ec-g">
+          <div class="ec-head"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg> Digital Marketing &amp; SEO</div>
+          <ul class="cl">
+            <li>Drove SEO optimisation alongside the digital team, leveraging data to boost organic traffic, improve rankings, and enhance lead generation</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="exp-divider"></div>
+
+    <!-- TCS -->
+    <div class="exp-block fade-in">
+      <div class="exp-meta">
+        <div class="exp-logo tcs">T</div>
+        <div><div class="exp-co">Tata Consultancy Services</div><div class="exp-dt">Sep 2014 — Jul 2021 · 6 yrs 10 mos</div></div>
+      </div>
+      <h3 class="exp-role">Marketing Analyst &amp; Team Lead / UI Developer</h3>
+      <p class="exp-desc">Combined marketing and technology leadership across two distinct roles — driving sales enablement and campaign execution for BFSI clients globally, while also leading a development team delivering UI solutions for BFSI and Telecom clients.</p>
+
+      <div class="card-grid">
+
+        <div class="exp-card ec-b">
+          <div class="ec-head"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.37 2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.84a16 16 0 0 0 6.15 6.15l1.2-1.24a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Business &amp; Sales Enablement</div>
+          <ul class="cl">
+            <li>Coordinated with Business Relationship Managers, Client Partners, and cross-functional teams to create effective sales pipelines</li>
+            <li>Drove cross-selling and up-selling efforts through account research, strategic planning, social media analysis, and marketing product positioning for BFSI accounts across the US and Latin America</li>
+          </ul>
+        </div>
+
+        <div class="exp-card ec-g">
+          <div class="ec-head"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg> Content Creation &amp; Campaign Execution</div>
+          <ul class="cl">
+            <li>Designed marketing materials including case studies, PoVs, brochures, and flyers for internal and external use</li>
+            <li>Strategised, designed, and executed email campaigns to drive targeted, segmented account-based marketing and product campaigns</li>
+          </ul>
+        </div>
+
+        <div class="exp-card ec-r">
+          <div class="ec-head"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg> Team Lead / UI Developer</div>
+          <ul class="cl">
+            <li>Led a team of 8 professionals, defining KPIs to track progress and identify critical areas in team performance and application development</li>
+            <li>Implemented change requests and UI enhancements in BAU projects for BFSI and Telecom clients</li>
+            <li>Improved content loading speed by <strong>40%</strong> via Root Cause Analysis; reduced manual coding effort by <strong>20%</strong></li>
+            <li>Received <strong>Star Performance Award</strong> (Best Team Lead) and <strong>Excellence Reward</strong> from clients and senior management</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section sec-alt" id="skills">
+  <div class="container">
+    <div class="eyebrow">Capabilities</div>
+    <h2 class="sec-h">Core <em>Competencies</em></h2>
+    <div class="skills-grid">
+      <div class="sk-card fade-in">
+        <div class="sk-icon ib"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+        <h3>Marketing Tools</h3>
+        <div class="sk-tags"><span>Salesforce</span><span>Pardot</span><span>WorkFront</span><span>Marketo</span><span>LinkedIn Ads</span><span>Adobe Mktg Cloud</span><span>Demandbase</span><span>Google Ads</span></div>
+      </div>
+      <div class="sk-card fade-in">
+        <div class="sk-icon ig"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h7v7H3zM14 3h7v7h-7zM14 14h7v7h-7zM3 14h7v7H3z"/></svg></div>
+        <h3>Campaign Types</h3>
+        <div class="sk-tags"><span>Account-Based Marketing</span><span>Multichannel Marketing</span><span>Demand Generation</span><span>Email Marketing</span><span>Content Syndication</span></div>
+      </div>
+      <div class="sk-card fade-in">
+        <div class="sk-icon ir"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
+        <h3>Digital Marketing</h3>
+        <div class="sk-tags"><span>SEO</span><span>Social Media</span><span>Google Analytics</span><span>Adobe Analytics</span></div>
+      </div>
+      <div class="sk-card fade-in">
+        <div class="sk-icon iy"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+        <h3>Content Creation</h3>
+        <div class="sk-tags"><span>Thought Leadership</span><span>Case Studies</span><span>PoVs</span><span>Brochures</span><span>Value Propositions</span></div>
+      </div>
+      <div class="sk-card fade-in">
+        <div class="sk-icon ib"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div>
+        <h3>Events &amp; Field Marketing</h3>
+        <div class="sk-tags"><span>Webinars</span><span>Roundtables</span><span>Fireside Chats</span><span>Conferences</span><span>Seminars</span></div>
+      </div>
+      <div class="sk-card fade-in">
+        <div class="sk-icon ig"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg></div>
+        <h3>Leadership</h3>
+        <div class="sk-tags"><span>Stakeholder Management</span><span>Analytical Thinking</span><span>Team Management</span><span>Cross-Functional Collaboration</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section class="section" id="achievements">
+  <div class="container">
+    <div class="eyebrow">Key Wins</div>
+    <h2 class="sec-h">Milestones that <em>Mattered</em></h2>
+    <div class="ach-grid">
+
+      <div class="ach-card ab fade-in">
+        <div class="ach-n">01</div>
+        <div class="ach-ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg></div>
+        <h3>AI-Driven Lead Management</h3>
+        <p>Pioneered AI tools and intelligent automation at Cognizant — enabling smarter account segmentation, accurate MQL tracking, and accelerated pipeline generation across North America and EMEA regions through data-driven process innovation.</p>
+      </div>
+
+      <div class="ach-card ag fade-in">
+        <div class="ach-n">02</div>
+        <div class="ach-ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+        <h3>Retail Cluster Launch</h3>
+        <p>Spearheaded the full launch of Evalueserve's Retail Cluster — overseeing narrative creation, website development, digital campaign launch, and targeted nurture email workflows — driving brand awareness, customer engagement, and business growth in the retail sector.</p>
+      </div>
+
+      <div class="ach-card ar fade-in">
+        <div class="ach-n">03</div>
+        <div class="ach-ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+        <h3>B2B Engagement PoV</h3>
+        <p>Developed a comprehensive Point of View on B2B Engagement &amp; Nurturing Strategy, emphasising lead nurturing and conversion into actionable opportunities — adopted as a strategic reference across the Evalueserve sales and marketing organisation.</p>
+        <a href="https://www.evalueserve.com/wp-content/uploads/2023/10/The-B2B-Engagement-Nurturing-Strategy.pdf" target="_blank" class="ach-link">Read the PoV →</a>
+      </div>
+
+      <div class="ach-card ay fade-in">
+        <div class="ach-n">04</div>
+        <div class="ach-ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg></div>
+        <h3>Star Performance Award</h3>
+        <p>Received the Star Performance Award for Best Team Lead and Team Player at TCS, plus the Excellence Reward for improving content loading speed by 40% — recognising exceptional leadership and measurable technical impact on BFSI and Telecom client projects.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION & CERTS -->
+<section class="section sec-alt">
+  <div class="container">
+    <div class="two-col">
+      <div class="fade-in">
+        <div class="eyebrow">Education</div>
+        <h2 class="sec-h">Academic <em>Foundation</em></h2>
+        <div class="edu-list">
+          <div class="edu-item">
+            <div class="edu-badge ebb">MBA</div>
+            <div><div class="edu-n">Master of Business Administration</div><div class="edu-i">Great Lakes Institute of Management, Gurgaon</div><div class="edu-m">2018–2019 · Marketing &amp; Analytics · CGPA 3.23 / 4.0</div></div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-badge ebg">B.Tech</div>
+            <div><div class="edu-n">Bachelor of Technology — Mechanical Engineering</div><div class="edu-i">NIET Greater Noida</div><div class="edu-m">2010–2014 · 71%</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="fade-in">
+        <div class="eyebrow">Certifications</div>
+        <h2 class="sec-h">Professional <em>Credentials</em></h2>
+        <div class="cert-list">
+          <div class="cert-item"><div class="cdot" style="background:var(--blue)"></div><div><div class="cert-n">Build Reports in Adobe Campaign Classic</div><div class="cert-by">Adobe</div></div></div>
+          <div class="cert-item"><div class="cdot" style="background:var(--red)"></div><div><div class="cert-n">Learning Adobe Reports and Analytics</div><div class="cert-by">Adobe</div></div></div>
+          <div class="cert-item"><div class="cdot" style="background:var(--green)"></div><div><div class="cert-n">SEO: Link Building in Depth</div><div class="cert-by">LinkedIn Learning</div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact-sec" id="contact">
+  <div class="container">
+    <div class="contact-inner">
+      <div class="eyebrow band-eye">Get in Touch</div>
+      <h2 class="contact-h">Let's build something <em>great</em> together</h2>
+      <p class="contact-s">Open to strategic marketing leadership roles, ABM collaborations, and conversations about B2B demand generation innovation.</p>
+      <div class="cc-grid">
+        <a href="mailto:singh91.rahulkumar@gmail.com" class="cc"><div class="cc-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div><div><div class="cc-lbl">Email</div><div class="cc-val">singh91.rahulkumar@gmail.com</div></div></a>
+        <a href="tel:+919629444795" class="cc"><div class="cc-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.37 2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.84a16 16 0 0 0 6.15 6.15l1.2-1.24a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div><div><div class="cc-lbl">Phone</div><div class="cc-val">+91 9629444795</div></div></a>
+        <a href="https://www.linkedin.com/in/singhkumarrahul" target="_blank" class="cc"><div class="cc-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></div><div><div class="cc-lbl">LinkedIn</div><div class="cc-val">linkedin.com/in/singhkumarrahul ↗</div></div></a>
+        <div class="cc"><div class="cc-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="cc-lbl">Location</div><div class="cc-val">Gurgaon, Haryana, India</div></div></div>
+      </div>
+      <button class="btn-dl-lg" onclick="downloadResume()">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download Resume PDF
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-name">Rahul Kumar Singh</div>
+      <div class="footer-links">
+        <a href="mailto:singh91.rahulkumar@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/singhkumarrahul" target="_blank">LinkedIn</a>
+        <a href="#hero">Back to top ↑</a>
+      </div>
+      <div class="footer-copy">© 2025 All rights reserved.</div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
